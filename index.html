@@ -37,8 +37,8 @@
 
 <!-- Main content -->
 
-    <section class="container d-flex justify-content-center">
-        <div class="row">
+    <section class="container-fluid d-flex justify-content-center myClass">
+        <div class="row container">
             <div id="titleText" class="col-lg-6 col-md-12 col-sm-12 bg-white p-5">
                 <h1>A Simple Bookmark Manager</h1>
                 <p class="p-2 text-muted">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free</p>
@@ -48,11 +48,67 @@
                 </div>
             </div>
             <div id="titleImage" class="col-lg-6 col-md-12 col-sm-12 position-relative">
-                <div class="taca position-absolute rounded-start-pill bg-primary "></div>
+                <div class="taca position-absolute rounded-start-pill bg-primary"></div>
                 <img src="./img/illustration-hero.svg" alt="Title image" class="img-fluid">
             </div>
         </div>
     </section>
+
+<!-- Features section  -->
+
+<section class="container-fluid mt-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-6 text-center">
+            <h3>Features</h3>
+            <p class="text-muted">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go</p>
+        </div>
+    </div>
+</section>
+
+<!-- Tab section  -->
+
+<section class="mt-5">
+    <div class="col-lg-7 col-md-10 col-sm-12 ms-auto me-auto">
+        <ul class="nav nav-tabs nav-underline nav-justified d-flex flex-column flex-sm-row" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Simple Bookmarking</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Speedy Searching</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Easy Sharing</button>
+            </li>
+        </ul>
+    </div>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            
+            <!-- Tab 1 Section -->
+
+            <section class="container-fluid d-flex justify-content-center mt-5 myClass ">
+                <div class="row container">
+                    <div id="tab1Image" class="col-lg-6 col-md-12 position-relative">
+                        <div class="tacaInversa position-absolute rounded-end-pill bg-primary"></div>
+                        <img src="./img/illustration-features-tab-1.svg" alt="Tab image" class="img-fluid p-5">
+                    </div>
+                    <div id="tab1Text" class="col-lg-6 col-md-12 col-sm-12 bg-white p-5">
+                        <h3>Bookmark in one click</h3>
+                        <p class="p-2 text-muted">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites</p>
+                        <div>
+                            <button type="button" class="btn btn-primary m-2 rounded">More info</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        
+        </div>
+
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, itaque, hic praesentium, exercitationem nobis architecto recusandae dicta corporis atque amet tempora. Velit maxime in minus amet obcaecati veritatis facilis ex!</div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellat recusandae non autem fugit hic maiores fuga, mollitia saepe repellendus architecto, a dolorem perferendis natus deleniti harum tempore, omnis facilis.</div>
+      </div>
+</section>
 
 <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script></script>
 </body>

@@ -30,3 +30,16 @@ body{
     top: 30%;
     left: 30%;
 }
+
+.tacaInversa{
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    top: 30%;
+    left: -30%;
+}
+
+.myClass{
+    overflow: hidden;
+}
+
