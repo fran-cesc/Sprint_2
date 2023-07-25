@@ -1,0 +1,32 @@
+$primary:#5265E1;
+$secondary:#FA5959;
+
+// $badge-padding-y: 3em;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    margin-top: 200px;
+}
+
+.nav-link{
+    color: $gray-600;
+}
+
+.nav-underline .nav-link.active, .nav-underline .show > .nav-link {
+    border-bottom-color: $secondary;
+}
+
+.nav-tabs .nav-link {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.taca{
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    top: 30%;
+    left: 30%;
+}
