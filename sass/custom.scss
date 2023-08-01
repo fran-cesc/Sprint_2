@@ -1,5 +1,6 @@
 $primary:#5265E1;
 $secondary:#FA5959;
+$dark: #22203b;
 
 $accordion-button-icon: url("../img/icon-arrow.svg");
 $accordion-button-active-icon:  url("../img/icon-arrow.svg");
@@ -68,6 +69,18 @@ body{
 
 .accordion-flush .accordion-item:last-child {
     border-bottom: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+
+#btnContact{
+    width: 100%;
+} 
+
+#navBarBottom{
+    color: white;    
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/icon-hamburger.svg");
 }
 
 @media only screen and (max-width: 1400px ){}
