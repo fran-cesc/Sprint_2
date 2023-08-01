@@ -11987,6 +11987,14 @@ body {
   color: #6c757d;
 }
 
+.nav-link:hover {
+  color: #FA5959;
+}
+
+.nav-foot-link {
+  color: white;
+}
+
 .nav-underline .nav-link.active, .nav-underline .show > .nav-link {
   border-bottom-color: #FA5959;
 }
@@ -12049,6 +12057,34 @@ body {
 
 .navbar-toggler-icon {
   background-image: url("../img/icon-hamburger.svg");
+}
+
+.btn-login {
+  color: white;
+}
+
+.btn-login:hover {
+  border: 1px solid #FA5959;
+  background-color: white;
+  color: #FA5959;
+}
+
+.btn-main-1:hover {
+  border: 1px solid #5265E1;
+  background-color: white;
+  color: #5265E1;
+}
+
+.btn-main-2:hover {
+  border: 1px solid #22203b;
+  background-color: white;
+  color: #22203b;
+}
+
+.card-body .btn:hover {
+  border: 1px solid #5265E1;
+  background-color: white;
+  color: #5265E1;
 }
 
 @media only screen and (max-width: 768px) {
